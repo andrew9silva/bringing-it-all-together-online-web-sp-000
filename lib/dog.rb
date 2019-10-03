@@ -49,4 +49,7 @@ class Dog
     hash = {:id => row[0], :name => row[1], :breed => row[2]}
     self.new(hash)
   end
+
+  def self.find_by_id
+  end
 end
